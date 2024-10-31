@@ -1,0 +1,40 @@
+.OpenAppCheckoutContainer {
+    margin-top:50px;
+    max-width:400px !important;
+}
+.OpenAppCheckoutLogin {
+    margin:25px 0;
+}
+.OpenAppCheckoutContainer div canvas {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 200px;
+}
+.isErrorOA{
+    border:1px solid red;
+    padding:10px;
+}
+
+.OpenAppButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:15px 0;
+    background: #6d73ff !important;
+    color: #ffffff !important;
+    line-height: 1 !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    border-radius: 10px !important;
+    padding:14px 24px !important;
+    font-weight: bold !important;
+    transition: 0.3s;
+    cursor: pointer;
+    max-width:220px;
+}
+.OpenAppButton svg {
+    margin-left:8px;
+}
+.OpenAppButton:hover{
+    opacity: .9;
+}
